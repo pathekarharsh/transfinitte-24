@@ -44,13 +44,13 @@ function App() {
 
   return (
     <div className="flex justify-center items-center h-screen bg-gradient-to-r from-gray-800 to-gray-900">
-      <div className="bg-gray-900 shadow-2xl rounded-lg max-w-xl w-full p-6"> {/* Increased width */}
-        <div className="text-center text-xl font-bold mb-4 text-indigo-300">
+      <div className="bg-gray-900 shadow-2xl rounded-lg w-11/12 max-w-5xl h-5/6 p-6 flex flex-col"> {/* Full screen adjustments */}
+        <div className="text-center text-2xl font-bold mb-4 text-indigo-300">
           Code Vulnerability Assistant
         </div>
 
         {/* Chat messages */}
-        <div className="flex flex-col space-y-4 overflow-auto max-h-96 p-4 bg-gray-700 rounded-lg scrollbar-thin scrollbar-thumb-indigo-500 scrollbar-track-gray-600">
+        <div className="flex flex-col space-y-4 overflow-auto flex-grow p-4 bg-gray-700 rounded-lg scrollbar-thin scrollbar-thumb-indigo-500 scrollbar-track-gray-600">
           {messages.map((message, index) => (
             <div
               key={index}
