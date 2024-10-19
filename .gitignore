@@ -2,11 +2,35 @@
 node_modules/
 
 # Build directories
-build/
 dist/
+build/
 
 # Log files
 *.log
 
 # Environment files
 .env
+
+# Dependency directories
+jspm_packages/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE/editor specific files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Coverage directory for coverage reports
+coverage/
+
+# Test output
+*.test.js
+*.spec.js
